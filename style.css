@@ -164,5 +164,55 @@ body {
         padding:15px auto;
         font-weight: 300;
     }
+}
+
+    @media screen and (min-width:401px) and (max-width:600px){
+        .qr-container {
+            width: 100%;
+            max-width: 380px;
+        }
+        .qr-container p {
+            font-size: 20px;
+        }
+        .qr-container input {
+            font-size:16px;
+        }
+        .image-box {
+            width: 150px;
+        }
     
+        .image-box.display-img {
+            max-height: 150px;
+        }
+        .qr-container button {
+            height: 50px;
+            font-size: 20px;
+        }
+    
+}
+
+
+@media screen and (min-width:601px) and (max-width:1000px){
+    .qr-container {
+        width: 100%;
+        max-width: 450px;
+    }
+    .qr-container p {
+        font-size: 20px;
+    }
+    .qr-container input {
+        font-size:16px;
+    }
+    .image-box {
+        width: 150px;
+    }
+
+    .image-box.display-img {
+        max-height: 150px;
+    }
+    .qr-container button {
+        height: 50px;
+        font-size: 20px;
+    }
+
 }
